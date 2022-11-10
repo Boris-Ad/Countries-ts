@@ -1,0 +1,23 @@
+.navbar{
+    width: 100%;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-weight: var(--fw-normal);
+    background-color: var(--colors-elements);
+    box-shadow: var(--shadow);
+}
+
+.setMode{
+    display: flex;
+    align-items: center;
+}
+
+.setMode > * + *{
+margin-left: 8px;
+}
+
+span{
+    cursor: pointer;
+}

@@ -1,0 +1,14 @@
+.home {
+  width: 100%;
+  margin: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 767px) {
+  .home {
+    height: 100%;
+  }
+}

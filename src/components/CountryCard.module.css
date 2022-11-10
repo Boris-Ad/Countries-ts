@@ -1,0 +1,29 @@
+.card {
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  cursor: pointer;
+  min-height: 316px;
+}
+
+.card img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  flex: 1;
+  border-radius: 5px 5px 0 0;
+}
+
+.cardBody {
+  padding: 1rem;
+  line-height: 1.3;
+}
+
+.cardBody p {
+  font-size: var(--fs-sm);
+}
+.cardTitle {
+  font-size: var(--fs-md);
+  font-weight: var(--fw-normal);
+}
